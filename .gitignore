@@ -1,0 +1,22 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Node
+node_modules/
+
+# Personal
+private/
+*.log
+
+# Large files
+*.mp4
+*.zip

@@ -1,0 +1,23 @@
+name: Update Progress
+
+on:
+  issues:
+    types: [closed]
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Update progress
+        run: python scripts/update_progress.py
+      
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --quiet || git commit -m "Update progress metrics"
+          git push
