@@ -22,7 +22,7 @@
 
 | Pattern | Problems Solved | Confidence |
 |---------|-----------------|------------|
-| Arrays & Hashing | 0/25 | ⭐☆☆☆☆ |
+| Arrays & Hashing | 5/25 | ⭐☆☆☆☆ |
 | Two Pointers | 0/15 | ⭐☆☆☆☆ |
 | Sliding Window | 0/10 | ⭐☆☆☆☆ |
 | Stack | 0/10 | ⭐☆☆☆☆ |
